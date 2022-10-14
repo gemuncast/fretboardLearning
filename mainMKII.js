@@ -47,7 +47,7 @@ const prepareNote = function () {
 }
 
 const loopNote = function (notes) {
-  var interval = 1000; // how much time should the delay between two iterations be (in milliseconds)?
+  var interval = 1500; // how much time should the delay between two iterations be (in milliseconds)?
   var promise = Promise.resolve();
   notes.forEach(function (el) {
     promise = promise.then(function () {
